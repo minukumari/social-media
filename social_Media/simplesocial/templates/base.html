@@ -17,12 +17,14 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
 </head>
 <body>
-	<nav class="navbar mynav" role='navigation' id='navbar'>
+	<nav class="navbar navbar-default" role='navigation' id='navbar'>
         <div class="container">
-            <a class="navbar-brand mynav" href="{% url 'home' %}">Star Social</a>
+            <a class="navbar-brand" href="{% url 'home' %}"><i class="fas fa-feather-alt"> Star Social</a>
             <ul class="nav navbar-nav navbar-right">
                 {% if user.is_authenticated %}
                 <li><a href="{% url 'posts:create' %}">Post</a></li>
@@ -32,8 +34,8 @@
                 
                 {% else %}
                 <li><a href="{% url 'groups:all' %}">Groups</a></li>
-                <li><a href="{% url 'accounts:login' %}">Login</a></li>
-                <li><a href="{% url 'accounts:signup' %}">Sign Up</a></li>
+                <li><a href="{% url 'accounts:login' %}"><i class="fas fa-sign-in-alt"> Login</a></li>
+                <li><a href="{% url 'accounts:signup' %}"><i class="fas fa-user-plus"> Sign Up</a></li>
                 </ul>
                 {% endif %}
         </div>
