@@ -4,3 +4,14 @@ body {
   background-color: black;
   color:white;
 }
+.text{
+	margin-top: 200px;
+    text-align: center;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: black;
+}
+.nav.navbar-nav.navbar-right li a:hover{
+   color: white;
+background-color:black; 
+}
