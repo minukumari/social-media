@@ -1,7 +1,7 @@
 # Social Media
 It is Social Outer Space Fan Community site.
 
-## Some key Fetures 
+## Some key Fetures are following
 1. Groups(similar to subreddits).
 2. Multiple Users and Authorizations.
 3. Posts in groups(similar to a tweet).
