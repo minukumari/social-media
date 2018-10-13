@@ -1,5 +1,5 @@
 # Social Media
-It is Social Outer Space Fan Community site.
+It is Social Outer Space Fan Community site. Here you can communicate with your group member to exchange your idea or news.
 
 ## Some key Fetures 
 1. Groups(similar to subreddits).
